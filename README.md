@@ -1,4 +1,4 @@
-#Monorepo
+# Monorepo
 
 This is an example project to show how this could work.
 It uses ```yarn workspace``` to divide the project in packages.
@@ -8,7 +8,7 @@ For each package there is a ```.github/workflow``` that is onlt run when necessa
 Then test are run and a docker image is build. It uses docker-compose to build, but could be easily changed to use docker.
 Because everything is nodejs, there is only 1 ```Dockerfile``` that takes the name of the package as an ```ARG```.
 
-##NEXT STEPS:
+## NEXT STEPS:
 - [ ] Use docker-compose to run the dev-environment
 - [ ] Add linting
 - [ ] Tag the images & push to registry
